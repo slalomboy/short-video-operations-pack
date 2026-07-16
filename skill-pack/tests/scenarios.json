@@ -1,0 +1,67 @@
+{
+  "short-video-operations": {
+    "positive": ["帮我做一套短视频运营方案", "从定位到复盘跑完整流程", "继续这个 ShortVideoOpsJob 任务单"],
+    "negative": ["只帮我润色这段口播", "剪掉视频里的口误"],
+    "boundary": ["我已有选题和脚本，只需要把证据、拍摄、审查和实验串起来"]
+  },
+  "short-video-positioning": {
+    "positive": ["重新做账号定位和商业承诺", "比较咨询、电商和直播三种变现路径", "把主页承诺拆成稳定内容支柱"],
+    "negative": ["分析这条视频的完播率", "把这段文案改得更口语"],
+    "boundary": ["定位给宝妈，但不知道她们具体担心什么"]
+  },
+  "short-video-audience-insight": {
+    "positive": ["整理用户在购买前最担心什么", "从评论区提炼真实问题", "按处境和判断标准拆分受众"],
+    "negative": ["替我决定卖什么产品", "直接写一条成交口播"],
+    "boundary": ["只有五条评论，先形成候选洞察并标记证据限制"]
+  },
+  "short-video-material-library": {
+    "positive": ["把这些案例按功能整理进素材库", "补齐素材来源和版权状态", "记录这段结构怎样迁移以及用过哪些版本"],
+    "negative": ["去水印后原样重发", "只按点赞数选一个账号整体复制"],
+    "boundary": ["参考跨行业句式，但保留来源并改用自己的事实和证据"]
+  },
+  "short-video-topic-planning": {
+    "positive": ["给候选选题按证据和可拍性排序", "把评论问题变成三条可验证选题", "评估热点与我们受众和承接的距离"],
+    "negative": ["把热榜第一直接当主选题", "替我写完整逐字稿"],
+    "boundary": ["这个题相关性高但证据暂时不足，判断应补证还是推迟"]
+  },
+  "short-video-script-strategy": {
+    "positive": ["判断这题适合观点、过程、知识还是故事", "设计两个会被正文兑现的钩子", "明确一个核心思想和适配 CTA"],
+    "negative": ["直接输出最终逐字口播稿", "拍摄并剪辑这段视频"],
+    "boundary": ["先做脚本策略，再把逐字稿交给 content-voiceover-copywriter"]
+  },
+  "short-video-evidence-planning": {
+    "positive": ["把脚本里的每个产品主张映射到证据", "检查这个对比是否条件公平", "列出制作前必须补齐的证据"],
+    "negative": ["用情绪音乐证明这个故事真实", "没有来源也把功效写成事实"],
+    "boundary": ["个人体验可以保留，但要限定为样本并说明不代表普遍结果"]
+  },
+  "short-video-shot-planning": {
+    "positive": ["把获批脚本转成拍摄分镜", "规划口播关系、证据画面和字幕", "检查场地隐私、声音和素材资产"],
+    "negative": ["直接替我剪完这个视频", "先堆转场特效让视频高级"],
+    "boundary": ["内容和证据已批准，生成任务单后路由 talking-head-video-production"]
+  },
+  "short-video-content-review": {
+    "positive": ["审查脚本的事实、证据和披露", "按严重度检查这版分镜", "每轮只给最重要的一到两个重拍变量"],
+    "negative": ["审查通过后直接替我发布", "只凭高级感评价成片"],
+    "boundary": ["历史事件用了情景还原，检查是否需要显著披露"]
+  },
+  "short-video-publish-experiment": {
+    "positive": ["为两个开篇版本设计可比发布实验", "明确主要变量、指标和停止规则", "在授权前准备发布实验记录"],
+    "negative": ["不用问我直接发布", "用一条上涨结果证明新模板有效"],
+    "boundary": ["内容审查通过，但平台规则和发布授权仍待确认"]
+  },
+  "short-video-paid-growth": {
+    "positive": ["判断这条自然内容是否适合小预算放大", "核算线索质量、退款和贡献利润", "设置预算上限和边际停止条件"],
+    "negative": ["直接替我充值投放", "只看低播放成本就无限加预算"],
+    "boundary": ["方案经济性通过，但仍保持 pendingApproval 等待明确支出授权"]
+  },
+  "short-video-live-conversion": {
+    "positive": ["检查短视频承诺如何接到直播商品", "核对价格权益、客服、库存和退款", "建立直播成交到履约复购的检查表"],
+    "negative": ["设计假砍价和库存倒计时", "未经授权直接开播并改价"],
+    "boundary": ["直播方案准备完成，但开播动作保持 pendingApproval"]
+  },
+  "short-video-performance-review": {
+    "positive": ["做一份内容到履约的周复盘", "用多个可比样本判断开篇变化", "根据四层指标设计下一轮实验"],
+    "negative": ["一条爆了就永久改掉账号定位", "只看播放量宣布经营成功"],
+    "boundary": ["记录单条异常为观察，但不越过 adoptionGate 更新长期模板"]
+  }
+}

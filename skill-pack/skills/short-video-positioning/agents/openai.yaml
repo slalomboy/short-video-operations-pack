@@ -1,0 +1,4 @@
+interface:
+  display_name: "短视频商业定位"
+  short_description: "明确账号承诺、变现路径、内容支柱与真实交付责任边界"
+  default_prompt: "Use $short-video-positioning to define the business field for this short-video account."

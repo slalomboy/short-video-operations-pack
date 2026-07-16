@@ -1,0 +1,4 @@
+interface:
+  display_name: "短视频选题规划"
+  short_description: "按用户相关、注意力、证据、可拍性、转化与风险进行排序"
+  default_prompt: "Use $short-video-topic-planning to rank short-video topics against the current business and audience evidence."

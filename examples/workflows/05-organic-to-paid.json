@@ -1,0 +1,63 @@
+{
+  "requestType": "organic-to-paid-eligibility",
+  "jobId": "sv-e2e-005",
+  "owner": "operator",
+  "now": "2026-07-16T14:00:00+08:00",
+  "requestedAction": "paidSpend",
+  "authorized": false,
+  "expectedRoute": [
+    "short-video-performance-review",
+    "short-video-paid-growth"
+  ],
+  "expectedGate": "pendingApproval:paidSpend",
+  "expectedStatus": "reviewed",
+  "patches": [
+    {
+      "jobId": "sv-e2e-005",
+      "baseVersion": 1,
+      "skill": "short-video-performance-review",
+      "writes": {
+        "metrics": {
+          "comparableSamples": 4,
+          "conversionMetrics": {
+            "qualifiedLeadRate": 0.12
+          }
+        },
+        "nextActions": [
+          "等待付费支出授权"
+        ]
+      },
+      "reviewItems": []
+    },
+    {
+      "jobId": "sv-e2e-005",
+      "baseVersion": 2,
+      "skill": "short-video-paid-growth",
+      "writes": {
+        "paidGrowth": {
+          "eligibility": "candidate",
+          "budgetCeiling": 300,
+          "contributionMargin": "positive-at-baseline",
+          "pendingApproval": true
+        }
+      },
+      "reviewItems": []
+    },
+    {
+      "jobId": "sv-e2e-005",
+      "baseVersion": 3,
+      "skill": "short-video-operations",
+      "writes": {
+        "meta": {
+          "jobId": "sv-e2e-005",
+          "version": 3,
+          "status": "reviewed",
+          "owner": "operator",
+          "createdAt": "2026-07-16T14:00:00+08:00",
+          "updatedAt": "2026-07-16T14:10:00+08:00"
+        }
+      },
+      "reviewItems": []
+    }
+  ]
+}

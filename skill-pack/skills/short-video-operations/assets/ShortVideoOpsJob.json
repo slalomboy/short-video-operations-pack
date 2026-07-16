@@ -1,0 +1,6 @@
+{
+  "template": "../../../shared/templates/ShortVideoOpsJob.json",
+  "sourceOfTruth": "JSON",
+  "humanView": "generated Markdown",
+  "mergePolicy": "versioned owned patches only"
+}

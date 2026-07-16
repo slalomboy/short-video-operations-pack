@@ -1,0 +1,4 @@
+interface:
+  display_name: "短视频脚本策略"
+  short_description: "选择经营型脚本功能、核心思想、钩子结构与行动承接方式"
+  default_prompt: "Use $short-video-script-strategy to define the script strategy and copywriting handoff for this topic."

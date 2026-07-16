@@ -1,0 +1,13 @@
+{
+  "requestType": "reach-good-conversion-weak",
+  "jobId": "sv-e2e-004",
+  "owner": "operator",
+  "now": "2026-07-16T14:00:00+08:00",
+  "expectedRoute": ["short-video-performance-review"],
+  "expectedGate": "none",
+  "expectedStatus": "reviewed",
+  "patches": [
+    {"jobId": "sv-e2e-004", "baseVersion": 1, "skill": "short-video-performance-review", "writes": {"metrics": {"contentMetrics": {"reach": "good"}, "conversionMetrics": {"qualifiedLeads": "weak"}}, "nextActions": ["只测试承接入口与用户任务的一致性"]}, "reviewItems": []},
+    {"jobId": "sv-e2e-004", "baseVersion": 2, "skill": "short-video-operations", "writes": {"meta": {"jobId": "sv-e2e-004", "version": 2, "status": "reviewed", "owner": "operator", "createdAt": "2026-07-16T14:00:00+08:00", "updatedAt": "2026-07-16T14:10:00+08:00"}}, "reviewItems": []}
+  ]
+}

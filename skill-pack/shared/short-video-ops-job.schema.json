@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "short-video-ops-job.schema.json",
+  "title": "ShortVideoOpsJob",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "meta", "business", "audience", "materials", "topics",
+    "scriptStrategy", "evidence", "production", "review",
+    "publishExperiment", "paidGrowth", "liveConversion",
+    "metrics", "nextActions", "governance"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["jobId", "version", "status", "owner", "createdAt", "updatedAt"],
+      "properties": {
+        "jobId": {"type": "string", "minLength": 1},
+        "version": {"type": "integer", "minimum": 1},
+        "status": {
+          "enum": [
+            "intake", "positioning", "planning", "script-ready",
+            "production-ready", "review-ready", "publish-ready",
+            "measuring", "reviewed", "completed", "blocked",
+            "paused", "superseded"
+          ]
+        },
+        "owner": {"type": "string"},
+        "createdAt": {"type": "string"},
+        "updatedAt": {"type": "string"}
+      }
+    },
+    "business": {"type": "object"},
+    "audience": {"type": "object"},
+    "materials": {"type": "object"},
+    "topics": {"type": "object"},
+    "scriptStrategy": {"type": "object"},
+    "evidence": {"type": "object"},
+    "production": {"type": "object"},
+    "review": {"type": "object"},
+    "publishExperiment": {"type": "object"},
+    "paidGrowth": {"type": "object"},
+    "liveConversion": {"type": "object"},
+    "metrics": {"type": "object"},
+    "nextActions": {"type": "array"},
+    "governance": {
+      "type": "object",
+      "required": ["approvals", "reviewItems", "conflicts"],
+      "properties": {
+        "approvals": {"type": "array"},
+        "reviewItems": {"type": "array"},
+        "conflicts": {"type": "array"}
+      }
+    }
+  }
+}

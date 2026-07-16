@@ -1,0 +1,4 @@
+interface:
+  display_name: "短视频发布实验"
+  short_description: "设计自然发布的单变量假设、可比条件、指标与停止规则"
+  default_prompt: "Use $short-video-publish-experiment to prepare a controlled publish experiment without executing release."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "短视频镜头规划"
+  short_description: "把脚本转成场景、镜头关系、证据画面、字幕声音与资产"
+  default_prompt: "Use $short-video-shot-planning to create a production-ready shot plan from approved content and evidence."

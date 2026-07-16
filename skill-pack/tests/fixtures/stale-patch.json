@@ -1,0 +1,7 @@
+{
+  "jobId": "sv-smoke-001",
+  "baseVersion": 0,
+  "skill": "short-video-positioning",
+  "writes": {"business": {"goal": "获客"}},
+  "reviewItems": []
+}

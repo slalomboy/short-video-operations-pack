@@ -1,0 +1,4 @@
+interface:
+  display_name: "短视频内容审查"
+  short_description: "审查事实证据、权利隐私、披露平台规则与成片表达风险"
+  default_prompt: "Use $short-video-content-review to review this short-video artifact and prioritize the smallest safe revision set."

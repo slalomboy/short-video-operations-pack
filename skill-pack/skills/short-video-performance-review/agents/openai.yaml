@@ -1,0 +1,4 @@
+interface:
+  display_name: "短视频效果复盘"
+  short_description: "诊断内容、受众、转化、履约四层指标并设计下一轮实验"
+  default_prompt: "Use $short-video-performance-review to diagnose comparable samples and propose one bounded next experiment."

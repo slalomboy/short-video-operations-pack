@@ -1,0 +1,82 @@
+{
+  "requestType": "script-to-production-review",
+  "jobId": "sv-e2e-003",
+  "owner": "operator",
+  "now": "2026-07-16T14:00:00+08:00",
+  "expectedRoute": [
+    "short-video-evidence-planning",
+    "short-video-shot-planning",
+    "short-video-content-review"
+  ],
+  "expectedGate": "none",
+  "expectedStatus": "review-ready",
+  "patches": [
+    {
+      "jobId": "sv-e2e-003",
+      "baseVersion": 1,
+      "skill": "short-video-evidence-planning",
+      "writes": {
+        "evidence": {
+          "claims": [
+            {
+              "claim": "流程减少遗漏",
+              "decision": "展示实际清单和一次操作"
+            }
+          ]
+        }
+      },
+      "reviewItems": []
+    },
+    {
+      "jobId": "sv-e2e-003",
+      "baseVersion": 2,
+      "skill": "short-video-shot-planning",
+      "writes": {
+        "production": {
+          "cameraRelationship": "同行演示",
+          "assets": [
+            "清单",
+            "录屏"
+          ]
+        }
+      },
+      "reviewItems": []
+    },
+    {
+      "jobId": "sv-e2e-003",
+      "baseVersion": 3,
+      "skill": "short-video-content-review",
+      "writes": {
+        "review": {
+          "decision": "revise",
+          "severity": "minor",
+          "priority": [
+            "补充清单版本日期"
+          ]
+        }
+      },
+      "reviewItems": [
+        "确认录屏中无客户隐私"
+      ]
+    },
+    {
+      "jobId": "sv-e2e-003",
+      "baseVersion": 4,
+      "skill": "short-video-operations",
+      "writes": {
+        "meta": {
+          "jobId": "sv-e2e-003",
+          "version": 4,
+          "status": "review-ready",
+          "owner": "operator",
+          "createdAt": "2026-07-16T14:00:00+08:00",
+          "updatedAt": "2026-07-16T14:10:00+08:00"
+        },
+        "nextActions": [
+          "关闭隐私审查项后复核"
+        ]
+      },
+      "reviewItems": []
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "requestType": "comment-question-one-video",
+  "jobId": "sv-e2e-002",
+  "owner": "operator",
+  "now": "2026-07-16T14:00:00+08:00",
+  "expectedRoute": ["short-video-audience-insight", "short-video-topic-planning", "short-video-script-strategy", "short-video-evidence-planning", "short-video-shot-planning"],
+  "expectedGate": "none",
+  "expectedStatus": "production-ready",
+  "patches": [
+    {"jobId": "sv-e2e-002", "baseVersion": 1, "skill": "short-video-audience-insight", "writes": {"audience": {"verbatimLanguage": ["拍了很多条为什么还没效果"], "sources": ["comment-001"]}}, "reviewItems": []},
+    {"jobId": "sv-e2e-002", "baseVersion": 2, "skill": "short-video-topic-planning", "writes": {"topics": {"selected": "数量为什么不等于有效训练"}}, "reviewItems": []},
+    {"jobId": "sv-e2e-002", "baseVersion": 3, "skill": "short-video-script-strategy", "writes": {"scriptStrategy": {"function": "知识", "coreIdea": "训练量必须连接假设、反馈和重拍"}}, "reviewItems": []},
+    {"jobId": "sv-e2e-002", "baseVersion": 4, "skill": "short-video-evidence-planning", "writes": {"evidence": {"claims": [{"claim": "数量不自动形成能力", "decision": "用训练记录和对比过程证明"}]}}, "reviewItems": []},
+    {"jobId": "sv-e2e-002", "baseVersion": 5, "skill": "short-video-shot-planning", "writes": {"production": {"visualEvidence": ["训练表", "重拍前后版本"]}}, "reviewItems": []},
+    {"jobId": "sv-e2e-002", "baseVersion": 6, "skill": "short-video-operations", "writes": {"meta": {"jobId": "sv-e2e-002", "version": 6, "status": "production-ready", "owner": "operator", "createdAt": "2026-07-16T14:00:00+08:00", "updatedAt": "2026-07-16T14:10:00+08:00"}, "nextActions": ["进入逐字稿与拍摄制作"]}, "reviewItems": []}
+  ]
+}

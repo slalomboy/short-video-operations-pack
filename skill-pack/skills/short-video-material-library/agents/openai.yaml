@@ -1,0 +1,4 @@
+interface:
+  display_name: "短视频素材库"
+  short_description: "管理素材来源、版权、功能分类、迁移边界与完整使用历史"
+  default_prompt: "Use $short-video-material-library to organize source materials with provenance and rights metadata."

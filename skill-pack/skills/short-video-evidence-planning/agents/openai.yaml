@@ -1,0 +1,4 @@
+interface:
+  display_name: "短视频证据规划"
+  short_description: "把重要主张映射到事实、过程、公平比较、限定结果或删除"
+  default_prompt: "Use $short-video-evidence-planning to map every material claim to sufficient evidence or a review item."

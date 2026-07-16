@@ -1,0 +1,8 @@
+{
+  "meta": {"jobId": "sv-fixture-valid", "version": 1, "status": "intake", "owner": "operator", "createdAt": "2026-07-16T00:00:00+08:00", "updatedAt": "2026-07-16T00:00:00+08:00"},
+  "business": {}, "audience": {}, "materials": {}, "topics": {},
+  "scriptStrategy": {}, "evidence": {}, "production": {}, "review": {},
+  "publishExperiment": {}, "paidGrowth": {}, "liveConversion": {}, "metrics": {},
+  "nextActions": [],
+  "governance": {"approvals": [], "reviewItems": [], "conflicts": []}
+}

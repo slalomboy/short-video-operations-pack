@@ -1,0 +1,15 @@
+{
+  "short-video-operations": ["meta", "nextActions", "governance"],
+  "short-video-positioning": ["business"],
+  "short-video-audience-insight": ["audience"],
+  "short-video-material-library": ["materials"],
+  "short-video-topic-planning": ["topics"],
+  "short-video-script-strategy": ["scriptStrategy"],
+  "short-video-evidence-planning": ["evidence"],
+  "short-video-shot-planning": ["production"],
+  "short-video-content-review": ["review"],
+  "short-video-publish-experiment": ["publishExperiment"],
+  "short-video-paid-growth": ["paidGrowth"],
+  "short-video-live-conversion": ["liveConversion"],
+  "short-video-performance-review": ["metrics", "nextActions"]
+}

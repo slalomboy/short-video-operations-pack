@@ -1,0 +1,15 @@
+{
+  "requestType": "short-video-to-live-fulfillment",
+  "jobId": "sv-e2e-006",
+  "owner": "operator",
+  "now": "2026-07-16T14:00:00+08:00",
+  "requestedAction": "liveAction",
+  "authorized": false,
+  "expectedRoute": ["short-video-live-conversion"],
+  "expectedGate": "pendingApproval:liveAction",
+  "expectedStatus": "publish-ready",
+  "patches": [
+    {"jobId": "sv-e2e-006", "baseVersion": 1, "skill": "short-video-live-conversion", "writes": {"liveConversion": {"continuity": "matched", "productProof": "verified", "priceRights": "verified", "service": "ready", "fulfillment": "ready", "refunds": "disclosed", "pendingApproval": true}}, "reviewItems": []},
+    {"jobId": "sv-e2e-006", "baseVersion": 2, "skill": "short-video-operations", "writes": {"meta": {"jobId": "sv-e2e-006", "version": 2, "status": "publish-ready", "owner": "operator", "createdAt": "2026-07-16T14:00:00+08:00", "updatedAt": "2026-07-16T14:10:00+08:00"}, "nextActions": ["等待开播明确授权"]}, "reviewItems": []}
+  ]
+}

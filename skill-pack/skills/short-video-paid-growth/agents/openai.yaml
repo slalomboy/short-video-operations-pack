@@ -1,0 +1,4 @@
+interface:
+  display_name: "短视频付费增长"
+  short_description: "评估投放资格、预算上限、完整漏斗、线索质量与贡献利润"
+  default_prompt: "Use $short-video-paid-growth to assess a bounded paid-growth test without authorizing spend."

@@ -1,0 +1,14 @@
+{
+  "requestType": "weekly-review-to-material-next-task",
+  "jobId": "sv-e2e-007",
+  "owner": "operator",
+  "now": "2026-07-16T14:00:00+08:00",
+  "expectedRoute": ["short-video-performance-review", "short-video-material-library"],
+  "expectedGate": "none",
+  "expectedStatus": "reviewed",
+  "patches": [
+    {"jobId": "sv-e2e-007", "baseVersion": 1, "skill": "short-video-performance-review", "writes": {"metrics": {"comparableSamples": 5, "adoptionGate": "candidate-approved"}, "nextActions": ["用同一证据结构测试新选题"]}, "reviewItems": []},
+    {"jobId": "sv-e2e-007", "baseVersion": 2, "skill": "short-video-material-library", "writes": {"materials": {"records": [{"materialId": "pattern-001", "source": "five-comparable-samples", "usageHistory": []}]}}, "reviewItems": []},
+    {"jobId": "sv-e2e-007", "baseVersion": 3, "skill": "short-video-operations", "writes": {"meta": {"jobId": "sv-e2e-007", "version": 3, "status": "reviewed", "owner": "operator", "createdAt": "2026-07-16T14:00:00+08:00", "updatedAt": "2026-07-16T14:10:00+08:00"}}, "reviewItems": []}
+  ]
+}

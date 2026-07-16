@@ -1,0 +1,6 @@
+{
+  "requestedAction": "paidSpend",
+  "authorized": false,
+  "expectedGate": "pendingApproval:paidSpend",
+  "mustNotExecute": true
+}

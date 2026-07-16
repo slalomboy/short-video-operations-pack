@@ -1,0 +1,4 @@
+interface:
+  display_name: "短视频运营总控"
+  short_description: "统筹定位、内容、实验、转化与复盘的短视频经营任务系统"
+  default_prompt: "Use $short-video-operations to coordinate this short-video operations request with a ShortVideoOpsJob."

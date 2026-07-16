@@ -1,0 +1,4 @@
+interface:
+  display_name: "短视频受众洞察"
+  short_description: "提炼用户处境、真实顾虑、判断标准与原始需求表达语言"
+  default_prompt: "Use $short-video-audience-insight to build evidence-backed audience insights for this task."

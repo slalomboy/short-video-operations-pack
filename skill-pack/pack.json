@@ -1,0 +1,97 @@
+{
+  "name": "short-video-operations-pack",
+  "version": "0.1.0-alpha.1",
+  "status": "portable-public-release",
+  "global_installed": false,
+  "runtime_entrypoints": {
+    "mode": "flat-wrappers",
+    "installer": "scripts/install_runtime_entrypoints.py",
+    "skills": 13,
+    "status": "not-installed"
+  },
+  "source_design": "docs/00-overview/architecture.md",
+  "skills": [
+    {
+      "name": "short-video-operations",
+      "role": "orchestrator",
+      "path": "skills/short-video-operations"
+    },
+    {
+      "name": "short-video-positioning",
+      "role": "specialist",
+      "path": "skills/short-video-positioning"
+    },
+    {
+      "name": "short-video-audience-insight",
+      "role": "specialist",
+      "path": "skills/short-video-audience-insight"
+    },
+    {
+      "name": "short-video-material-library",
+      "role": "specialist",
+      "path": "skills/short-video-material-library"
+    },
+    {
+      "name": "short-video-topic-planning",
+      "role": "specialist",
+      "path": "skills/short-video-topic-planning"
+    },
+    {
+      "name": "short-video-script-strategy",
+      "role": "specialist",
+      "path": "skills/short-video-script-strategy"
+    },
+    {
+      "name": "short-video-evidence-planning",
+      "role": "specialist",
+      "path": "skills/short-video-evidence-planning"
+    },
+    {
+      "name": "short-video-shot-planning",
+      "role": "specialist",
+      "path": "skills/short-video-shot-planning"
+    },
+    {
+      "name": "short-video-content-review",
+      "role": "specialist",
+      "path": "skills/short-video-content-review"
+    },
+    {
+      "name": "short-video-publish-experiment",
+      "role": "specialist",
+      "path": "skills/short-video-publish-experiment"
+    },
+    {
+      "name": "short-video-paid-growth",
+      "role": "specialist",
+      "path": "skills/short-video-paid-growth"
+    },
+    {
+      "name": "short-video-live-conversion",
+      "role": "specialist",
+      "path": "skills/short-video-live-conversion"
+    },
+    {
+      "name": "short-video-performance-review",
+      "role": "specialist",
+      "path": "skills/short-video-performance-review"
+    }
+  ],
+  "downstream_dependencies": [
+    "content-voiceover-copywriter",
+    "talking-head-video-production",
+    "video-use"
+  ],
+  "validation": {
+    "local": "run-python3-scripts-validate_repository.py",
+    "official_skills_ref": {
+      "status": "passed",
+      "validated_at": "2026-07-16",
+      "skills_passed": 13,
+      "skills_total": 13,
+      "source": "https://github.com/agentskills/agentskills#subdirectory=skills-ref",
+      "commit": "38a2ff82958afee88dadf4831509e6f7e9d8ef4e"
+    },
+    "legacy_quick_validate": "superseded-by-official-skills-ref"
+  }
+}

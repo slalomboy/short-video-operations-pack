@@ -1,0 +1,4 @@
+interface:
+  display_name: "短视频直播承接"
+  short_description: "连接短视频承诺、商品证据、价格权益、客服履约与退款"
+  default_prompt: "Use $short-video-live-conversion to prepare a truthful livestream conversion and fulfillment handoff."

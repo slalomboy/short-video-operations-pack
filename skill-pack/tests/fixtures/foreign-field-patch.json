@@ -1,0 +1,7 @@
+{
+  "jobId": "sv-smoke-001",
+  "baseVersion": 1,
+  "skill": "short-video-positioning",
+  "writes": {"audience": {"segment": "企业主"}},
+  "reviewItems": []
+}

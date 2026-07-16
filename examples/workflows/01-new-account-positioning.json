@@ -1,0 +1,87 @@
+{
+  "requestType": "new-account-first-plan",
+  "jobId": "sv-e2e-001",
+  "owner": "operator",
+  "now": "2026-07-16T14:00:00+08:00",
+  "expectedRoute": [
+    "short-video-positioning",
+    "short-video-audience-insight",
+    "short-video-material-library",
+    "short-video-topic-planning"
+  ],
+  "expectedGate": "none",
+  "expectedStatus": "planning",
+  "patches": [
+    {
+      "jobId": "sv-e2e-001",
+      "baseVersion": 1,
+      "skill": "short-video-positioning",
+      "writes": {
+        "business": {
+          "offer": "短视频运营服务",
+          "accountPromise": "用真实证据改善内容经营"
+        }
+      },
+      "reviewItems": []
+    },
+    {
+      "jobId": "sv-e2e-001",
+      "baseVersion": 2,
+      "skill": "short-video-audience-insight",
+      "writes": {
+        "audience": {
+          "situation": "已有业务但内容不稳定",
+          "job": "建立可重复生产线"
+        }
+      },
+      "reviewItems": []
+    },
+    {
+      "jobId": "sv-e2e-001",
+      "baseVersion": 3,
+      "skill": "short-video-material-library",
+      "writes": {
+        "materials": {
+          "records": [],
+          "rightsChecked": true
+        }
+      },
+      "reviewItems": []
+    },
+    {
+      "jobId": "sv-e2e-001",
+      "baseVersion": 4,
+      "skill": "short-video-topic-planning",
+      "writes": {
+        "topics": {
+          "ranked": [
+            {
+              "topic": "为什么你的选题无法持续",
+              "rankingReason": "高相关且可用经营过程证明"
+            }
+          ]
+        }
+      },
+      "reviewItems": []
+    },
+    {
+      "jobId": "sv-e2e-001",
+      "baseVersion": 5,
+      "skill": "short-video-operations",
+      "writes": {
+        "meta": {
+          "jobId": "sv-e2e-001",
+          "version": 5,
+          "status": "planning",
+          "owner": "operator",
+          "createdAt": "2026-07-16T14:00:00+08:00",
+          "updatedAt": "2026-07-16T14:10:00+08:00"
+        },
+        "nextActions": [
+          "选择首条选题并进入脚本策略"
+        ]
+      },
+      "reviewItems": []
+    }
+  ]
+}
