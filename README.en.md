@@ -1,10 +1,12 @@
 # Short Video Operations Pack
 
+[中文](README.md) · [Finished capabilities and two-layer productization](docs/en/productization-map.md)
+
 [中文主入口](README.md) · [English documentation index](docs/en/README.md)
 
 Short Video Operations Pack is an open Agent Skills suite for creators and content teams that need a repeatable way to plan, review, and learn from short-video work. It turns disconnected prompts into a shared job record with evidence, approval gates, experiments, and review.
 
-**Current status:** `v0.1.0-alpha.3` is a fixed prerelease source version. The suite structure and deterministic checks are verified. **Next step:** install the fixed Tag, run one planning-only request, and keep publishing, spending, and live-stream actions behind explicit human approval.
+**Current status:** `v0.1.0-alpha.4` is a fixed prerelease source version. The suite structure and deterministic checks are verified. **Next step:** install the fixed Tag, run one planning-only request, and keep publishing, spending, and live-stream actions behind explicit human approval.
 
 ## What problem does it solve?
 
@@ -13,7 +15,7 @@ Short-video work often breaks between positioning, topic selection, scripting, e
 ## Install and make the first call
 
 ```bash
-git clone --branch v0.1.0-alpha.3 --depth 1 https://github.com/slalomboy/short-video-operations-pack.git
+git clone --branch v0.1.0-alpha.4 --depth 1 https://github.com/slalomboy/short-video-operations-pack.git
 cd short-video-operations-pack
 python3 skill-pack/scripts/validate_pack.py skill-pack
 ```
@@ -28,7 +30,7 @@ Then ask: “Use `short-video-operations` to define positioning and propose the 
 
 ## Skill map and routing
 
-The suite contains one router, [`short-video-operations`](https://github.com/slalomboy/short-video-operations-pack/tree/v0.1.0-alpha.3/skill-pack/skills/short-video-operations), and twelve specialist Skills for positioning, audience insight, materials, topics, scripts, evidence, shots, content review, publishing experiments, paid-growth decisions, live conversion, and performance review. They share one repository version and are not separate releases.
+The suite contains one router, [`short-video-operations`](https://github.com/slalomboy/short-video-operations-pack/tree/v0.1.0-alpha.4/skill-pack/skills/short-video-operations), and twelve specialist Skills for positioning, audience insight, materials, topics, scripts, evidence, shots, content review, publishing experiments, paid-growth decisions, live conversion, and performance review. They share one repository version and are not separate releases.
 
 Use the router when a request crosses more than one stage or resumes an existing job. Call a specialist Skill directly when the task has one clear boundary.
 
@@ -50,6 +52,6 @@ The suite does not log in to platforms, publish automatically, authorize spendin
 
 ## License and provenance
 
-Original code and documentation use the [Apache License 2.0](https://github.com/slalomboy/short-video-operations-pack/blob/v0.1.0-alpha.3/LICENSE), SPDX identifier `Apache-2.0`. Platform content, accounts, APIs, media, and third-party tools remain under their own terms.
+Original code and documentation use the [Apache License 2.0](https://github.com/slalomboy/short-video-operations-pack/blob/v0.1.0-alpha.4/LICENSE), SPDX identifier `Apache-2.0`. Platform content, accounts, APIs, media, and third-party tools remain under their own terms.
 
 Continue with the [English quick start](docs/en/quickstart.md), [usage guide](docs/en/usage.md), or [limitations](docs/en/limitations.md).

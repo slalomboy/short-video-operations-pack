@@ -2,6 +2,21 @@
 
 All notable changes follow Keep a Changelog and Semantic Versioning.
 
+## [0.1.0-alpha.4] - 2026-08-11
+
+### Added
+
+- Added matched Chinese and English finished-capability maps for `FIN-SV-000/001/002/003/006/007/010/011`.
+
+### Changed
+
+- Linked claimable free handouts and paid-suite upgrade boundaries without changing the thirteen-Skill implementation.
+- Moved every public installation and stable child path to immutable Tag `v0.1.0-alpha.4`.
+
+### Boundaries
+
+- Documentation and traceability patch only; no publishing, account access, spending, Release, or visibility change.
+
 ## [0.1.0-alpha.3] - 2026-08-11
 
 ### Added
