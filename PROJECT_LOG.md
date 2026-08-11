@@ -1,5 +1,11 @@
 # Project Log
 
+## 2026-08-11 — v0.1.0-alpha.5 candidate
+
+- Added the public-lightweight `FIN-SV-012` PublishJob contract as an add-on outside the thirteen-Skill core.
+- Recorded the TDD RED result for the absent validator, then passed 35/35 tests after the minimal implementation.
+- Publish and bilingual audits passed with zero warnings; external platform actions and GitHub Release remain excluded.
+
 ## 2026-07-16 — v0.1.0-alpha.1
 
 - 创建独立公开发行项目；GitHub 为发布源，不做网盘同步。

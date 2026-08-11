@@ -2,6 +2,21 @@
 
 All notable changes follow Keep a Changelog and Semantic Versioning.
 
+## [0.1.0-alpha.5] - 2026-08-11
+
+### Added
+
+- Added the public-lightweight `multi-platform-publish-contract` add-on with schema, template, deterministic validator, and four focused tests.
+- Added `FIN-SV-012` to the matched Chinese and English productization maps without changing the thirteen-Skill core count.
+
+### Changed
+
+- Aligned the pack manifest and fixed links to `v0.1.0-alpha.5`; the complete suite now passes 35 deterministic tests.
+
+### Boundaries
+
+- The add-on does not log in, upload, submit, schedule, publish, store credentials, select accounts, create a Release, or change repository visibility.
+
 ## [0.1.0-alpha.4] - 2026-08-11
 
 ### Added

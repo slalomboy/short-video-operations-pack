@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 PACK_ROOT = Path(__file__).resolve().parents[1]
-PACK_VERSION = "0.1.0-alpha.1"
+PACK_VERSION = "0.1.0-alpha.5"
 EXPECTED_SKILLS = {
     "short-video-operations",
     "short-video-positioning",

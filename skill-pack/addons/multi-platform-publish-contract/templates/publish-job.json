@@ -1,0 +1,19 @@
+{
+  "job_id": "pub-demo-001",
+  "asset_package_id": "pkg-demo-001",
+  "asset_owner": "Example Studio",
+  "account_asset_package": {
+    "account_key": "douyin:example-studio",
+    "platform": "douyin",
+    "video_ref": "assets/demo-video.mp4",
+    "cover_ref": "assets/demo-cover.png",
+    "caption": "A verified demo caption"
+  },
+  "authorization": {
+    "submit": false,
+    "schedule": false,
+    "publish": false
+  },
+  "status": "ready_for_operator",
+  "platform_result": null
+}

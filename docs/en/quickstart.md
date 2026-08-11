@@ -10,7 +10,7 @@
 ## Install the fixed version
 
 ```bash
-git clone --branch v0.1.0-alpha.4 --depth 1 https://github.com/slalomboy/short-video-operations-pack.git
+git clone --branch v0.1.0-alpha.5 --depth 1 https://github.com/slalomboy/short-video-operations-pack.git
 cd short-video-operations-pack
 python3 skill-pack/scripts/validate_pack.py skill-pack
 ```

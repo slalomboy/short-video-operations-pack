@@ -4,7 +4,7 @@
 
 一套把短视频从“凭感觉发内容”变成“有任务单、有证据、有实验、有复盘”的开源 Skill 包。
 
-**适用对象：**短视频创作者、内容团队和需要多轮协作的 Agent 用户。**当前状态：**`v0.1.0-alpha.4` 公开预发布候选，13 个 Skill 的结构与测试已验证。**下一步：**按下面的固定版本安装路径完成第一次调用；发布、投放、付费和直播仍须人工授权。English readers: [README.en.md](README.en.md).
+**适用对象：**短视频创作者、内容团队和需要多轮协作的 Agent 用户。**当前状态：**`v0.1.0-alpha.5` 公开预发布候选，13 个 Skill 的结构与测试已验证。**下一步：**按下面的固定版本安装路径完成第一次调用；发布、投放、付费和直播仍须人工授权。English readers: [README.en.md](README.en.md).
 
 ![13 个 Skill 组成的短视频运营闭环](assets/illustrations/operations-loop.svg)
 
@@ -24,7 +24,7 @@
 
 ## 安装与第一次调用
 
-1. 下载固定版本：`git clone --branch v0.1.0-alpha.4 --depth 1 https://github.com/slalomboy/short-video-operations-pack.git`。
+1. 下载固定版本：`git clone --branch v0.1.0-alpha.5 --depth 1 https://github.com/slalomboy/short-video-operations-pack.git`。
 2. 把仓库中的 `skill-pack/` 安装到支持 Agent Skills 的工具中；扁平发现模式可执行 `python3 skill-pack/scripts/install_runtime_entrypoints.py skill-pack <skill-root>`。
 3. 复制[共享任务单模板](skill-pack/shared/templates/ShortVideoOpsJob.json)。
 4. 发出请求：“使用 `short-video-operations`，为这个新账号建立定位并给出首批选题，只做到计划，不发布。”
@@ -32,9 +32,11 @@
 
 ## Skill 地图
 
-总控是 [`short-video-operations`](https://github.com/slalomboy/short-video-operations-pack/tree/v0.1.0-alpha.4/skill-pack/skills/short-video-operations)。12 个专业子 Skill 分别负责定位、受众、素材、选题、脚本、证据、镜头、审查、发布实验、付费增长、直播承接和效果复盘；它们共享同一仓库版本，不重复作为独立仓库发布。完整固定版本目录见 [`skill-pack/skills`](https://github.com/slalomboy/short-video-operations-pack/tree/v0.1.0-alpha.4/skill-pack/skills)。
+总控是 [`short-video-operations`](https://github.com/slalomboy/short-video-operations-pack/tree/v0.1.0-alpha.5/skill-pack/skills/short-video-operations)。12 个专业子 Skill 分别负责定位、受众、素材、选题、脚本、证据、镜头、审查、发布实验、付费增长、直播承接和效果复盘；它们共享同一仓库版本，不重复作为独立仓库发布。完整固定版本目录见 [`skill-pack/skills`](https://github.com/slalomboy/short-video-operations-pack/tree/v0.1.0-alpha.5/skill-pack/skills)。
 
 ## 学习入口
+
+需要把已批准视频、封面、文案和唯一账号映射整理成发布批次时，可使用 13-Skill 核心之外的 [`multi-platform-publish-contract`](skill-pack/addons/multi-platform-publish-contract/SKILL.md) add-on。它只验证本地任务与证据状态，不登录、不上传、不发布。
 
 - [能力与边界](docs/00-overview/capabilities-and-boundaries.md)
 - [六阶段学习路线](docs/02-learning-path/six-stage-path.md)
@@ -46,14 +48,14 @@
 
 ## 版本与兼容性
 
-当前版本：`v0.1.0-alpha.4`。这是预发布版本；JSON schema 和字段所有权是协作契约。源码与 Markdown 对 macOS、Linux、Windows 使用同一版本，不提供平台二进制包。
+当前版本：`v0.1.0-alpha.5`。这是预发布版本；JSON schema 和字段所有权是协作契约。源码与 Markdown 对 macOS、Linux、Windows 使用同一版本，不提供平台二进制包。
 
 ## 验证范围
 
-已验证 13/13 个 Skill、31/31 项自动测试和临时目录安装回读。验证证明结构、任务契约、路由与安全覆盖有效，不代表平台账号已登录，也不保证流量、转化或收益。`short-video-paid-growth` 与 `short-video-live-conversion` 仅保留有界决策入口。
+已验证 13/13 个 Skill、35/35 项自动测试和临时目录安装回读。验证证明结构、任务契约、路由与安全覆盖有效，不代表平台账号已登录，也不保证流量、转化或收益。`short-video-paid-growth` 与 `short-video-live-conversion` 仅保留有界决策入口。
 
 ## 许可证、来源与隐私边界
 
 本仓库公开的是原创 Skill 实现、操作方法、匿名示例和图解，不包含形成该方法时使用的原视频、逐字稿、逐条笔记、书稿或客户资料。
 
-[English documentation](README.en.md) · [English docs index](docs/en/README.md) · [Apache-2.0](https://github.com/slalomboy/short-video-operations-pack/blob/v0.1.0-alpha.4/LICENSE) · [贡献指南](CONTRIBUTING.md)
+[English documentation](README.en.md) · [English docs index](docs/en/README.md) · [Apache-2.0](https://github.com/slalomboy/short-video-operations-pack/blob/v0.1.0-alpha.5/LICENSE) · [贡献指南](CONTRIBUTING.md)

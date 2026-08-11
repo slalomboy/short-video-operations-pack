@@ -1,6 +1,6 @@
 {
   "name": "short-video-operations-pack",
-  "version": "0.1.0-alpha.4",
+  "version": "0.1.0-alpha.5",
   "status": "portable-public-release",
   "global_installed": false,
   "runtime_entrypoints": {
