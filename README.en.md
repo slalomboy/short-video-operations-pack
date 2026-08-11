@@ -6,4 +6,4 @@ The pack contains one orchestrator, twelve specialist Skills, and a shared `Shor
 
 Start with the [Chinese quick start](docs/01-getting-started/quick-start.md) or browse the [13 Skill manuals](docs/03-skills/README.md). External actions such as publishing, spending, or going live always require explicit human approval.
 
-Current release: `v0.1.0-alpha.1` (prerelease). License: Apache-2.0.
+Current release: `v0.1.0-alpha.2` (prerelease). Install the immutable source with `git clone --branch v0.1.0-alpha.2 --depth 1 https://github.com/slalomboy/short-video-operations-pack.git`. License: Apache-2.0.
