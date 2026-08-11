@@ -2,6 +2,18 @@
 
 All notable changes follow Keep a Changelog and Semantic Versioning.
 
+## [0.1.0-alpha.3] - 2026-08-11
+
+### Added
+
+- Full English repository entry and `docs/en/` quick start, usage, and limitations guides.
+- Bidirectional Chinese and English navigation.
+
+### Changed
+
+- Declared Chinese as the primary language and English as the paired public documentation language.
+- Updated all stable public version links to `v0.1.0-alpha.3`.
+
 ## [0.1.0-alpha.2] - 2026-08-11
 
 ### Changed
